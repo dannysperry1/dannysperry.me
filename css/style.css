@@ -135,7 +135,7 @@ footer {
 	width:100%;
 	background-image: -moz-linear-gradient(top, #481D54, #300E39); /* FF3.6 */
   	background-image: -ms-linear-gradient(top, #481D54, #300E39); /* IE10 */
-  	background-image: -o-linear-ost(top, #481D54, #300E39); /* Opera 11.10+ */
+  	background-image: -o-linear-gradient(top, #481D54, #300E39); /* Opera 11.10+ */
   	background-image: -webkit-gradient(linear, left top, left bottom, from(#481D54), to(#300E39)); /* Saf4+, Chrome */
   	background-image: -webkit-linear-gradient(top, #481D54, #300E39); /* Chrome 10+, Saf5.1+ */
   	background-image: linear-gradient(top, #481D54, #300E39);
