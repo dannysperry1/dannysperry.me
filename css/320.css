@@ -1,0 +1,108 @@
+/* 320
+
+_____________________________________________________
+
+320 and Up boilerplate extension
+
+Author: Andy Clarke
+Version: 0.9b
+URL: http://stuffandnonsense.co.uk/projects/320andup/
+License: http://creativecommons.org/licenses/MIT/
+_____________________________________________________
+
+1.ROOT
+2.HEADINGS
+3.TYPOGRAPHY
+4.LINKS
+5.FIGURES & IMAGES
+6.TABLES
+7.FORMS (See css/mylibs/forms.css)
+8.BANNER — header[role="banner"]
+9.NAVIGATION — nav[role="navigation"]
+10.CONTENT
+11.MAIN — div[role="main"]
+12.COMPLIMENTARY — div[role="complementary"]
+13.CONTENTINFO — footer[role="contentinfo"]
+14.GLOBAL OBJECTS
+15.VENDOR-SPECIFIC 
+16.TEMPLATE SPECIFICS
+17.MODERNIZR
+
+*/
+
+/* 1.ROOT */
+
+/* 2.HEADINGS */
+header {
+	height:10em;}
+/* 3.TYPOGRAPHY */
+
+h1 {
+	font-size: 3em;}
+	
+header h2, h3 {
+	width:100%;
+	margin: auto;
+	font-size:1.8em;}
+
+aside h1 {
+	font-size: 2.5em;}
+
+aside h2 { 
+	font-size: 2em;}
+	
+aside h3 {
+	font-size: 1.25em;}
+/* 4.LINKS */
+
+header h3 a:hover {
+	-moz-transform:scale(1.5);
+	text-decoration: none;
+	color: #BA1FAF;}
+
+header h3 a, header h3 a:visited {
+		color: #803396;}
+/* 5.FIGURES & IMAGES */
+nav li img {
+	width: 16%;}
+
+/* 6.TABLES */
+/* 7.FORMS (See css/mylibs/forms.css) */
+/* 8.BANNER */
+/* 9.NAVIGATION */
+nav {
+	width: 100%;
+	height: 4.5em;
+	margin: 0 auto;
+	-moz-box-shadow: -1px 10px 5px #481D54;
+	-webkit-box-shadow: -1px 10px 5px #481D54;
+	-ms-box-shadow: -1px 10px 5px #481D54;
+	-o-box-shadow: -1px 10px 5px #481D54;
+	box-shadow: -1px 10px 5px #481D54;}
+
+#container nav ul {
+	padding-top: 0.3em;}
+
+nav ul li {
+	margin-left:0.3em;}
+	
+
+/* 10.CONTENT */
+aside {
+	padding:1em;
+	padding-bottom:2em;}
+footer { height: 2em;}
+/* 11.MAIN */
+
+
+#bodycontainer {
+	margin-left: auto;
+	margin-right: auto;
+	height: 100%;
+	width:320px;}
+/* 12.COMPLIMENTARY */
+/* 13.CONTENTINFO */
+/* 14.GLOBAL OBJECTS */
+/* 15.VENDOR-SPECIFIC */
+/* 16.TEMPLATE SPECIFICS */
+/* 17.MODERNIZR */

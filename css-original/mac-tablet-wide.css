@@ -1,0 +1,197 @@
+/* for screens less or equal to 1200 pixels wide*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+body {
+	text-align: center;
+}
+
+#bodycontainer {
+	width:100%;
+	max-width:1200px;
+	background: url('toolbar.png'), url('navbar.png');
+	background-repeat: no-repeat, no-repeat;
+	background-position: top left, bottom left;
+	
+	
+}
+
+header {
+	width:100%;
+	height: 8em;
+	background-image: -moz-linear-gradient(top, #300E39, #481D54); /* FF3.6 */
+  	background-image: -ms-linear-gradient(top, #300E39, #481D54); /* IE10 */
+  	background-image: -o-linear-ost(top, #300E39, #481D54); /* Opera 11.10+ */
+  	background-image: -webkit-gradient(linear, left top, left bottom, from(#300E39), to(#481D54)); /* Saf4+, Chrome */
+  	background-image: -webkit-linear-gradient(top, #300E39, #481D54); /* Chrome 10+, Saf5.1+ */
+  	background-image: linear-gradient(top, #300E39, #481D54);
+              filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#300E39', EndColorStr='#481D54'); /* IE6–IE9 */
+	border-bottom: solid 2px #3d3d3d;
+}
+
+header h1, section h1, aside h1, aside h2, aside h3 {
+	font-family: "Harabara", Courier, Arial;
+}
+
+header h1 {
+	color: #551966;
+	font-size: 7.5em;
+}
+
+#container section h1 {
+	font-size: 3em;
+	padding: 0.6em 0 0;
+}
+
+#container section h1 em {
+	font-size: 1.2em;
+	-webkit-transform: rotate(5deg);	
+	-moz-transform: rotate(5deg);
+	-ms-transform: rotate(5deg);
+	-o-transform: rotate(5deg);
+	transform: rotate(5deg);
+}
+
+#container section h1 em:first-child {
+	font-size: 1.2em;
+	-webkit-transform: rotate(-5deg);	
+	-moz-transform: rotate(-5deg);
+	-ms-transform: rotate(-5deg);
+	-o-transform: rotate(-5deg);
+	transform: rotate(-5deg);
+}
+	
+#container section h1 em:hover  {
+	font-size: 1.2em;
+	-webkit-transform: rotate(-0deg), scale(1.5);	
+	-moz-transform: rotate(0deg), scale(1.5);
+	-ms-transform: rotate(0deg), scale(1.5);
+	-o-transform: rotate(0deg), scale(1.5);
+	transform: rotate(0deg), scale(1.5);
+	-webkit-transform: scale(1.5);	
+	-moz-transform: scale(1.5);
+	-ms-transform: scale(1.5);
+	-o-transform: scale(1.5);
+	transform: rotate(0deg), scale(1.5);
+}
+
+#container aside h1{
+	font-size: 4em;
+	text-align: left;
+	margin: auto;
+}
+#container aside h2{
+	font-size: 2.5em;
+	text-align: left;
+}
+#container aside h3{
+	font-size: 1.7em;
+	text-align: left;
+}
+
+#container {
+	width: 100%;
+	background-image: -moz-linear-gradient(top, #d1d1d1, #fff); /* FF3.6 */
+  	background-image: -ms-linear-gradient(top, #ddd, #fff); /* IE10 */
+  	background-image: -o-linear-ost(top, #ddd, #fff); /* Opera 11.10+ */
+  	background-image: -webkit-gradient(linear, left top, left bottom, from(#ddd), to(#fff)); /* Saf4+, Chrome */
+  	background-image: -webkit-linear-gradient(top, #ddd, #fff); /* Chrome 10+, Saf5.1+ */
+  	background-image: linear-gradient(top, #ddd, #fff);
+              filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#ddd', EndColorStr='#fff'); /* IE6–IE9 */
+}
+	
+}
+
+section {
+	width: 100%;
+	
+}
+
+aside { 	
+	background-color: white;
+	background-image: url('../images/mac_ipad_topleft.png'), url('../images/mac_ipad_topright.png');
+	background-position: top left, top right;
+	background-repeat: no-repeat, no-repeat;	
+	width:80%;
+	max-width:700px;
+	height: 100%;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	margin: 5% auto 0;
+	padding: 1em;
+	
+}
+
+aside nav { 
+	position:absolute;
+	bottom:0;
+	width:80%;
+	max-width:819px;
+	background: url('glossy_floorleft.png') top left no-repeat, url('glossy_floorright.png') top right no-repeat;
+	margin-bottom: 1.25em;
+}
+
+nav li {
+	display: inline;
+
+}
+
+nav .li img, nav .fb img, nav .tw img, nav .ds img {
+	width: 10%;
+}
+
+nav .gm img{
+	width: 13%;
+}
+
+nav .li img:hover, nav .fb img:hover, nav .tw img:hover, nav .ds img:hover, nav .gm img:hover {
+	-moz-transform: scale(1.5);
+	-ms-transform: scale(1.5);
+	-o-transform: scale(1.5);
+	-webkit-transform: scale(1.5);
+	transform: scale(1.5);
+	margin: 0 2.4% 2.4%;
+}

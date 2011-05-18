@@ -1,0 +1,141 @@
+/* 480
+
+_____________________________________________________
+
+320 and Up boilerplate extension
+
+Author: Andy Clarke
+Version: 0.9b
+URL: http://stuffandnonsense.co.uk/projects/320andup/
+License: http://creativecommons.org/licenses/MIT/
+_____________________________________________________
+
+1.ROOT
+2.HEADINGS
+3.TYPOGRAPHY
+4.LINKS
+5.FIGURES & IMAGES
+6.TABLES
+7.FORMS (See css/mylibs/forms.css)
+8.BANNER — header[role="banner"]
+9.NAVIGATION — nav[role="navigation"]
+10.CONTENT
+11.MAIN — div[role="main"]
+12.COMPLIMENTARY — div[role="complementary"]
+13.CONTENTINFO — footer[role="contentinfo"]
+14.GLOBAL OBJECTS
+15.VENDOR-SPECIFIC 
+16.TEMPLATE SPECIFICS
+17.MODERNIZR
+
+*/
+
+/* 1.ROOT */
+/* 2.HEADINGS */
+
+header {
+	text-align: left;
+	height:9.5em;}
+
+/* 3.TYPOGRAPHY */
+
+header hgroup {
+	margin-left: 1em;}
+
+h1 {
+	font-size: 4em;}
+	
+header h2, 
+header h3 {
+	line-height: 1em;}
+	
+	
+header h2, 
+header h3 {	
+	font-size:2.8em;}
+	
+header h3 em:first-child {
+	-moz-transform: rotate(-5deg);
+	-webkit-transform: rotate(-5deg);
+	-ms-transform: rotate(-5deg);
+	-o-transform: rotate(-5deg);
+	transform: rotate(-5deg);}
+	
+header h3 em {
+	text-shadow:0 -1px 2px rgba(128,51,150,1), 
+				0 5px 5px rgba(48, 14, 58, .8), 
+				0 10px 15px rgba(48, 14, 58, .5);
+	-moz-transform: rotate(15deg);
+	-webkit-transform: rotate(15deg);
+	-ms-transform: rotate(15deg);
+	-o-transform: rotate(15deg);
+	transform: rotate(15deg);}
+
+header h3 em:hover {
+	text-shadow:0 5px 5px rgba(48, 14, 58, .8),
+				5px 4px 1px rgba(48, 14, 58, .8);
+	-moz-transform: scale(1.5);
+	-webkit-transform: scale(1.5);
+	-ms-transform: scale(1.5);
+	-o-transform: scale(1.5);
+	transform: scale(1.5);}
+	
+aside hgroup {
+	padding: 5em 0 0 5em;
+	text-align: left;}
+	
+aside h2 {
+	font-size: 3em;}
+	
+aside h3 {
+	font-size: 1.8em;}
+	
+	
+/* 4.LINKS */
+/* 5.FIGURES & IMAGES */
+/* 6.TABLES */
+/* 7.FORMS (See css/mylibs/forms.css) */
+/* 8.BANNER */
+/* 9.NAVIGATION */
+
+nav {
+	float: right;
+	display: inline;
+	width: 22%;
+	padding-bottom: 0%;
+	}
+
+nav li img {
+	width: 50%;}
+
+nav li img .gm {
+	width: 14%;}
+
+/* 10.CONTENT */
+
+aside {
+	display: inline;
+	width: 73%;
+	float: left;
+	padding:1em;
+	padding-bottom:10%;}
+	
+footer {
+	height:2.2em;
+	clear:both;}
+	
+/* 11.MAIN */
+
+#bodycontainer {
+	width: 992px;}
+	
+#container {
+	overflow:hidden;
+	position:relative;}
+
+/* 12.COMPLIMENTARY */
+/* 13.CONTENTINFO */
+/* 14.GLOBAL OBJECTS */
+/* 15.VENDOR-SPECIFIC */
+/* 16.TEMPLATE SPECIFICS */
+/* 17.MODERNIZR */
