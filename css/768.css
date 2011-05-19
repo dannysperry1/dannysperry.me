@@ -58,12 +58,10 @@ header h3 a:hover {
 	-webkit-transform: scale(1.5);
 	-ms-transform: scale(1.5);
 	-o-transform: scale(1.5);
-	transform: scale(1.5);				
-}
+	transform: scale(1.5);}
 	
 aside h1 {
-	font-size: 5em;
-}	
+	font-size: 5em;}	
 /* 4.LINKS */
 /* 5.FIGURES & IMAGES */
 /* 6.TABLES */
@@ -92,8 +90,11 @@ nav li img .gm {
 aside {
 	padding:1em;
 	padding-bottom:2.2em;}
+	
 footer {height:2em;}
+
 /* 11.MAIN */
+
 #bodycontainer {
 	width: 768px;}
 

@@ -91,15 +91,18 @@ nav ul li {
 aside {
 	padding:1em;
 	padding-bottom:2em;}
-footer { height: 2em;}
-/* 11.MAIN */
+	
+footer { 
+	height: 2em;}
 
+/* 11.MAIN */
 
 #bodycontainer {
 	margin-left: auto;
 	margin-right: auto;
 	height: 100%;
 	width:320px;}
+
 /* 12.COMPLIMENTARY */
 /* 13.CONTENTINFO */
 /* 14.GLOBAL OBJECTS */

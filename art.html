@@ -1,55 +1,156 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+
+<!-- 
+320 and Up boilerplate extension
+Author: Andy Clarke
+Version: 0.9b
+URL: http://stuffandnonsense.co.uk/projects/320andup 
+-->
+
+<!--[if IEMobile 7 ]><html class="no-js iem7" manifest="default.appcache?v=1"><![endif]-->
+<!--[if lt IE 7 ]><html class="no-js ie6" lang="en"><![endif]-->
+<!--[if IE 7 ]><html class="no-js ie7" lang="en"><![endif]-->
+<!--[if IE 8 ]><html class="no-js ie8" lang="en"><![endif]-->
+<!--[if (gte IE 9)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" manifest="default.appcache?v=1" lang="en"><!--<![endif]-->
+
 <head>
-<meta charset="UTF-8" />
-<link rel="stylesheet" href="css/styles.css" />
-<script src="js/jquery-1.5.2.min.js"></script>
-<script src="js/picture.js"></script>
-<script src="js/modernizr-1.7.min.js"></script>
-<title>Danny Sperry</title>
+<meta charset="utf-8">
+
+<title>Danny Sperry's Art</title>
+<meta name="description" content="Web Development and Art Portfolio">
+<meta name="author" content="Daniel Sperry">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1">
+
+<!-- For less capable mobile browsers
+<link rel="stylesheet" media="handheld" href="css/handheld.css?v=1">  -->
+
+<!-- For all browsers -->
+<link rel="stylesheet" media="screen" href="css/style.css?v=1">
+<link rel="stylesheet" media="print"  href="css/print.css?v=1">
+<!-- For progressively larger displays -->
+<link rel="stylesheet" media="only screen and (min-width: 320px)" href="css/320.css?v=1">
+<link rel="stylesheet" media="only screen and (min-width: 480px)" href="css/480.css?v=1">
+<link rel="stylesheet" media="only screen and (min-width: 768px)" href="css/768.css?v=1">
+<link rel="stylesheet" media="only screen and (min-width: 992px)" href="css/992.css?v=1">
+<link rel="stylesheet" media="only screen and (min-width: 1382px)"href="css/1382.css?v=1">
+<!-- For Retina displays -->
+<link rel="stylesheet" media="only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2)" href="css/2x.css?v=1">
+
+<!-- JavaScript at bottom except for Modernizr -->
+<script src="js/libs/modernizr-1.7.min.js"></script>
+
+<!-- For iPhone 4 -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/h/apple-touch-icon.png">
+<!-- For iPad 1-->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/m/apple-touch-icon.png">
+<!-- For iPhone 3G, iPod Touch and Android -->
+<link rel="apple-touch-icon-precomposed" href="img/l/apple-touch-icon-precomposed.png">
+<!-- For Nokia -->
+<link rel="shortcut icon" href="img/l/apple-touch-icon.png">
+<!-- For everything else -->
+<link rel="shortcut icon" href="/favicon.ico">
+
+<!--iOS. Delete if not required -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="apple-touch-startup-image" href="img/splash.png">
+
+<!--Microsoft. Delete if not required -->
+<meta http-equiv="cleartype" content="on">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+<!-- http://t.co/y1jPVnT -->
+<link rel="canonical" href="/">
 </head>
 
 
 
-<body>
 
-	
-	<div id="container">
-	
-		<header>
-			<hgroup>
-			  <h1><a href="home.html">dannysperry<span class="lightp">.me</span></a></h1>
-  			<h2>danny sperry's <em class="darkp">portfolio</em> of <em class="darkp"><a href="art.html">ART</a></em> and <em class="darkp">WEB</em></h2>
-	    </hgroup>
-		</header><!--end header-->
-		
-		<div id="subcontainer">
-			
-			<span id="flowertop"><img src="images/flowertop.png" alt="flower top" /></span>
-			<section id="content">
-				<h3>Check out my art work</h3>
-			</section><!--end content-->
-			
-			<footer><!--footer is inside content div-->
-					<p>Designed and Developed by Daniel Sperry</p>
-			</footer><!--end footer-->
-			
-			<nav>
-			    <div id="flower_border"><img src="images/stemborder.png" alt="flower border" /></div>
-			    <ul id="artnav">
-            <li id="pencil"><a href="pencil.html">pencil</a></li>
-  			    <li id="pen"><a href="pen.html">pen</a></li>
-  			    <li id="paint"><a href="paint.html">paint</a></li>
-  			  <!--<li id="watercolor"><a href="watercolor.html">watercolor</a></li> not used yet -->
-  			  <!--<li id="craft"><a href="craft.html">craft</a></li> not used yet -->
-  			  <!--<li id="model"><a href="modeling.html">modeling</a></li> not used yet -->
-  			    <li id="card"><a href="card.html">card</a></li>
-			    </ul>    			
-			</nav><!--end nav-->
-		
-		</div><!--end subcontainer-->	
-	
-	</div><!--end container-->
 
+
+
+
+<body class="clearfix">
+
+  <div id="bodycontainer">
+
+     <header>
+       <hgroup>
+       <h1>dannysperry.me</h1>
+       <h2>danny sperry's portfolio of</h2> 
+       <h3><em><a href="art.html">ART</a></em> and <em><a href="web.html">WEB</a></em></h3>
+      </hgroup>
+     </header>
+       <div id="container">
+          <nav>
+             <ul>
+               <li><a href="#"><img src="img/linkedin.png" alt="LinkedIn icon" /></a></li>
+               <li><a href="#"><img src="img/twitter.png" alt="Twitter icon" /></a></li>
+               <li><a href="#"><img src="img/facebook.png" alt="facebook icon" /></a></li>
+               <li><a href="#"><img src="img/gmailsq.png" alt="gmail icon" /></a></li>
+               <li><a href="#"><img class="ds" src="img/dsperry.png" alt="dsperry icon" /></a></li>
+             </ul>
+           </nav>
+          <aside>
+             <section id="box1">
+               <article class="pictures"><a href="img/art/card/card001.JPG"><img src="img/art/card/card001.JPG" width="3072" height="1728" alt="Card001"></a></article>
+               <article class="pictures"><a href="img/art/card/card002.JPG"><img src="img/art/card/card002.JPG" width="3072" height="1728" alt="Card002"></a></article>
+               <article class="pictures"><a href="img/art/card/card003.JPG"><img src="img/art/card/card003.JPG" width="3072" height="1728" alt="Card003"></a></article>
+               <article class="pictures"><a href="img/art/card/card004.JPG"><img src="img/art/card/card004.JPG" width="3072" height="1728" alt="Card004"></a></article>
+               <article class="pictures"><a href="img/art/card/card005.JPG"><img src="img/art/card/card005.JPG" width="3072" height="1728" alt="Card005"></a></article>
+               <article class="pictures"><a href="img/art/card/card006.JPG"><img src="img/art/card/card006.JPG" width="3072" height="1728" alt="Card006"></a></article>
+               <article class="pictures"><a href="img/art/paint/paint001.JPG"><img src="img/art/paint/paint001.jpg" width="384" height="640" alt="Paint001"></a></article>
+               <article class="pictures"><a href="img/art/paint/paint002.JPG"><img src="img/art/paint/paint002.jpg" width="360" height="270" alt="Paint002"></a></article>
+               <article class="pictures"><a href="img/art/pen/pen001.JPG"><img src="img/art/pen/pen001.jpg" width="270" height="360" alt="Pen001"></a></article>
+               <article class="pictures"><a href="img/art/pen/pen002.JPG"><img src="img/art/pen/pen002.jpg" width="360" height="270" alt="Pen002"></a></article>
+               <article class="pictures"><a href="img/art/pencil/pencil001.JPG"><img src="img/art/pencil/pencil001.jpg" width="384" height="640" alt="Pencil001"></a></article>
+               <article class="pictures"><a href="img/art/pencil/pencil002.JPG"><img src="img/art/pencil/pencil002.jpg" width="640" height="384" alt="Pencil002"></a></article>
+               <article class="pictures"><a href="img/art/pencil/pencil003.JPG"><img src="img/art/pencil/pencil003.jpg" width="384" height="640" alt="Pencil003"></a></article>
+               <article class="pictures"><a href="img/art/pencil/pencil004.JPG"><img src="img/art/pencil/pencil004.jpg" width="384" height="640" alt="Pencil004"></a></article>
+               <article class="pictures"><a href="img/art/pencil/pencil005.JPG"><img src="img/art/pencil/pencil005.jpg" width="384" height="640" alt="Pencil005"></a></article>
+               <article class="pictures"><a href="img/art/pencil/pencil006.JPG"><img src="img/art/pencil/pencil006.jpg" width="270" height="360" alt="Pencil006"></a></article>
+               <article class="pictures"><a href="img/art/pencil/pencil007.JPG"><img src="img/art/pencil/pencil007.jpg" width="270" height="360" alt="Pencil007"></a></article>
+               <article class="pictures"><a href="img/art/pencil/pencil008.JPG"><img src="img/art/pencil/pencil008.jpg" width="360" height="270" alt="Pencil008"></a></article>
+               <article class="pictures"><a href="img/art/pencil/pencil009.JPG"><img src="img/art/pencil/pencil009.jpg" width="270" height="360" alt="Pencil009"></a></article>
+               <article class="pictures"><a href="img/art/pencil/pencil010.JPG"><img src="img/art/pencil/pencil010.jpg" width="270" height="360" alt="Pencil010"></a></article>
+               <article class="pictures"><a href="img/art/pencil/pencil011.JPG"><img src="img/art/pencil/pencil011.jpg" width="270" height="360" alt="Pencil011"></a></article>
+               <article class="pictures"><a href="img/art/pencil/pencil012.JPG"><img src="img/art/pencil/pencil012.jpg" width="270" height="360" alt="Pencil012"></a></article>
+               <article class="pictures"><a href="img/art/pencil/pencil013.JPG"><img src="img/art/pencil/pencil013.jpg" width="360" height="270" alt="Pencil013"></a></article>
+               <article class="pictures"><a href="img/art/pencil/pencil014.JPG"><img src="img/art/pencil/pencil014.jpg" width="270" height="360" alt="Pencil014"></a></article>
+               <article class="pictures"><a href="img/art/pencil/pencil015.JPG"><img src="img/art/pencil/pencil015.jpg" width="270" height="360" alt="Pencil015"></a></article>
+               <article class="pictures"><a href="img/art/pencil/pencil016.JPG"><img src="img/art/pencil/pencil016.jpg" width="270" height="360" alt="Pencil016"></a></article>
+             </section>
+          </aside>
+          <footer>
+          </footer>
+       </div> <!--end container-->
+   </div> <!--end bodycontainer-->
+
+
+
+
+
+
+
+
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.js"></script>
+<script>window.jQuery || document.write('<script src="js/libs/jquery-1.5.1.min.js">\x3C/script>')</script>
+<!-- Scripts -->
+<script src="js/plugins.js"></script>
+<script src="js/script.js"></script>
+
+<!--[if (lt IE 9) & (!IEMobile)]>
+<script src="js/libs/DOMAssistantCompressed-2.8.js"></script>
+<script src="js/libs/selectivizr-1.0.1.js"></script>
+<script src="js/libs/respond.min.js"></script>
+<![endif]-->
+
+<noscript>Your browser does not support JavaScript!</noscript>
 </body>
 </html>

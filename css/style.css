@@ -104,6 +104,7 @@ html {
 background : rgb(255,255,255) /* url(../img/tmp/grid.png) repeat-y 50% 0 */; }
 
 body { 
+min-width: 320px;
 margin : 0 auto;
 font : 100%/1.4 Cambria, Georgia, Times, "Times New Roman";
 color : rgb(40,40,40); 
@@ -112,7 +113,8 @@ text-align: center; }
 
 #bodycontainer {
 	position: relative;
-	width:100%;}
+	width:100%;
+	min-width: 320px;}
 
 #container {
 	background: #fff;
@@ -150,10 +152,8 @@ src : url("Harabara-webfont.eot");
 src : local("☺"),
 url("Harabara-webfont.svg#Harabara-webfont") format("svg"),
 url("Harabara-webfont.ttf") format("truetype"),
-url("Harabara-webfont.woff") format("woff");
-}
+url("Harabara-webfont.woff") format("woff");}
 
-	
 h1,
 h2,
 h3,
@@ -164,14 +164,12 @@ h6 {
 	color: #551966;}
 
 h2 {
-	color: #310E3A;
-}
+	color: #310E3A;}
 
 aside h1,
 aside h2,
 aside h3 {
-	color: #161616;
-}
+	color: #161616;}
 
 p, 
 ol, 

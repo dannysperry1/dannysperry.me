@@ -65,6 +65,7 @@ header h3 em {
 	text-shadow:0 -1px 2px rgba(128,51,150,1), 
 				0 5px 5px rgba(48, 14, 58, .8), 
 				0 10px 15px rgba(48, 14, 58, .5);
+	filter: shadow(color=#300e3a, direction="135");
 	-moz-transform: rotate(15deg);
 	-webkit-transform: rotate(15deg);
 	-ms-transform: rotate(15deg);
@@ -74,6 +75,7 @@ header h3 em {
 header h3 em:hover {
 	text-shadow:0 5px 5px rgba(48, 14, 58, .8),
 				5px 4px 1px rgba(48, 14, 58, .8);
+	filter: shadow(color=#300e3a, direction="135");
 	-moz-transform: scale(1.5);
 	-webkit-transform: scale(1.5);
 	-ms-transform: scale(1.5);
@@ -102,8 +104,7 @@ nav {
 	float: right;
 	display: inline;
 	width: 22%;
-	padding-bottom: 0%;
-	}
+	padding-bottom: 0%;}
 
 nav li img {
 	width: 50%;}
