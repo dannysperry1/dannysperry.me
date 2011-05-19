@@ -34,37 +34,23 @@ _____________________________________________________
 /* 2.HEADINGS */
 header {
 	text-align: center;
-	height:9.5em;}
+	height:9.5em; }
 
 /* 3.TYPOGRAPHY */
 h1 {
 	margin: -0.2em 0;
-	font-size: 4em;}
+	font-size: 4em; }
 	
 header h2, header h3 {
 	width: 90%;
 	margin:  auto;
-	line-height: 1em;}
+	line-height: 1em; }
 
 header h2 {
-	font-size:2.2em;}	
+	font-size:2.2em; }	
 	
 header h3 {	
-	font-size:2.4em;}
-	
-header h3 a {
-	-moz-transform: rotate(7deg);
-	-webkit-transform: rotate(7deg);
-	-ms-transform: rotate(7deg);
-	-o-transform: rotate(7deg);
-	transform: rotate(7deg);}	
-
-header h3 a:hover {
-	-moz-transform: scale(1.5);
-	-webkit-transform: scale(1.5);
-	-ms-transform: scale(1.5);
-	-o-transform: scale(1.5);
-	transform: scale(1.5);}
+	font-size:2.4em; }
 	
 	
 /* 4.LINKS */
@@ -80,32 +66,27 @@ nav {
 	-webkit-box-shadow: -1px 10px 5px #481D54;
 	-ms-box-shadow: -1px 10px 5px #481D54;
 	-o-box-shadow: -1px 10px 5px #481D54;
-	box-shadow: -1px 10px 5px #481D54;}
-
-nav .ds { position: fixed
-	left: -2000px;}
-
-nav li {
-	margin: 0 1%;}
+	box-shadow: -1px 10px 5px #481D54; }
 
 nav li img {
-	width: 12%;}
-
-nav li img .gm {
-	width: 14%;}
+	margin: 0.5em;
+	width: 13%; }
 
 /* 10.CONTENT */
+
 aside {
 	padding:1em;
-	padding-bottom:2.2em;}
+	padding-bottom:2.2em; }
 
 footer {
-	height:2.2em;}
+	height:2.2em;
+	margin-top:-2.2em; }
 
 /* 11.MAIN */
 
 #bodycontainer {
-	width:480px;}
+	width:480px;
+	padding-bottom: 2.2em; }
 
 /* 12.COMPLIMENTARY */
 /* 13.CONTENTINFO */

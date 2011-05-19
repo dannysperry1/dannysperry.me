@@ -100,8 +100,9 @@ padding : 0; }
 
 /* 1.ROOT */
 
-html {
-background : rgb(255,255,255) /* url(../img/tmp/grid.png) repeat-y 50% 0 */; }
+html,
+body {
+	height: 100%; }
 
 body { 
 min-width: 320px;
@@ -114,11 +115,13 @@ text-align: center; }
 #bodycontainer {
 	position: relative;
 	width:100%;
-	min-width: 320px;}
+	min-width: 320px;
+	min-height:100%; }
 
 #container {
+	overflow:hidden;
 	background: #fff;
-	width: 100%;}
+	width: 100%; }
 
 /* 2.HEADINGS */
 header {
@@ -131,9 +134,10 @@ header {
   	background-image: -webkit-linear-gradient(top, #300E39, #481D54); /* Chrome 10+, Saf5.1+ */
   	background-image: linear-gradient(top, #300E39, #481D54);
               filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#300E39', EndColorStr='#481D54'); /* IE6–IE9 */
-	border-bottom: solid 1px #300E3A;}
+	border-bottom: solid 1px #300E3A; }
 	
 footer {	
+	position: relative;
 	width:100%;
 	background-image: -moz-linear-gradient(top, #481D54, #300E39); /* FF3.6 */
   	background-image: -ms-linear-gradient(top, #481D54, #300E39); /* IE10 */
@@ -142,7 +146,8 @@ footer {
   	background-image: -webkit-linear-gradient(top, #481D54, #300E39); /* Chrome 10+, Saf5.1+ */
   	background-image: linear-gradient(top, #481D54, #300E39);
               filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#481D54', EndColorStr='#300E39'); /* IE6–IE9 */
-	border-top: solid 1px #300E3A;}
+	border-top: solid 1px #300E3A;
+	clear: both; }
 
 /* 3.TYPOGRAPHY */
 
@@ -152,7 +157,7 @@ src : url("Harabara-webfont.eot");
 src : local("☺"),
 url("Harabara-webfont.svg#Harabara-webfont") format("svg"),
 url("Harabara-webfont.ttf") format("truetype"),
-url("Harabara-webfont.woff") format("woff");}
+url("Harabara-webfont.woff") format("woff"); }
 
 h1,
 h2,
@@ -161,15 +166,44 @@ h4,
 h5,
 h6 { 
 	font-family: "Harabara", sans-serif, arial;
-	color: #551966;}
+	color: #551966; }
 
 h2 {
-	color: #310E3A;}
+	color: #310E3A; }
 
 aside h1,
 aside h2,
 aside h3 {
-	color: #161616;}
+	color: #161616; }
+
+header h3 em:first-child {
+	-moz-transform: rotate(-5deg);
+	-webkit-transform: rotate(-5deg);
+	-ms-transform: rotate(-5deg);
+	-o-transform: rotate(-5deg);
+	transform: rotate(-5deg);}
+
+header h3 em {
+	
+	text-shadow:0 -1px 2px rgba(128,51,150,1), 
+				0 5px 5px rgba(48, 14, 58, .8), 
+				0 10px 15px rgba(48, 14, 58, .5);
+	filter: shadow(color=#300e3a, direction="135");
+	-moz-transform: rotate(5deg);
+	-webkit-transform: rotate(5deg);
+	-ms-transform: rotate(5deg);
+	-o-transform: rotate(5deg);
+	transform: rotate(5deg);}
+
+header h3 em:hover {
+	text-shadow:0 5px 5px rgba(48, 14, 58, .8),
+				5px 4px 1px rgba(48, 14, 58, .8);
+	filter: shadow(color=#300e3a, direction="135");
+	-moz-transform: scale(1.3);
+	-webkit-transform: scale(1.3);
+	-ms-transform: scale(1.3);
+	-o-transform: scale(1.3);
+	transform: scale(1.3);}
 
 p, 
 ol, 
@@ -293,13 +327,35 @@ background-color : transparent; }
 /* 7.FORMS (See css/mylibs/forms.css) */
 /* 8.BANNER */
 /* 9.NAVIGATION */
+
 nav ul li{
 	list-style-type: none;
 	display: inline;}
 
-
-
 /* 10.CONTENT */
+#box1 img {
+	width: 30%;
+	height:10%;
+}
+
+#container aside section #box1 {
+	width:80%;
+	height:60%;
+	background: black;
+	border-radius:20px;
+	border: 1px solid black;}
+				
+.control {
+	display: block;
+	width: 39px;
+	height: 770px;
+	text-indent:-100000px;
+	position:absolute;
+	cursor: pointer; }
+	
+section #box1 .pictures {}
+
+
 /* 11.MAIN */
 /* 12.COMPLIMENTARY */
 /* 13.CONTENTINFO */

@@ -31,38 +31,42 @@ _____________________________________________________
 */
 
 /* 1.ROOT */
-
 /* 2.HEADINGS */
+
 header {
-	height:10em;}
+	height:10em; }
+	
 /* 3.TYPOGRAPHY */
 
 h1 {
-	font-size: 3em;}
+	font-size: 3em; }
 	
 header h2, h3 {
 	width:100%;
 	margin: auto;
-	font-size:1.8em;}
+	font-size:1.8em; }
 
 aside h1 {
-	font-size: 2.5em;}
+	font-size: 2.5em; }
 
 aside h2 { 
-	font-size: 2em;}
+	font-size: 2em; }
 	
 aside h3 {
-	font-size: 1.25em;}
+	font-size: 1.25em; }
+	
 /* 4.LINKS */
 
 header h3 a:hover {
 	-moz-transform:scale(1.5);
 	text-decoration: none;
-	color: #BA1FAF;}
+	color: #BA1FAF; }
 
 header h3 a, header h3 a:visited {
-		color: #803396;}
+		color: #803396; }
+		
 /* 5.FIGURES & IMAGES */
+
 nav li img {
 	width: 16%;}
 
@@ -70,6 +74,7 @@ nav li img {
 /* 7.FORMS (See css/mylibs/forms.css) */
 /* 8.BANNER */
 /* 9.NAVIGATION */
+
 nav {
 	width: 100%;
 	height: 4.5em;
@@ -78,30 +83,35 @@ nav {
 	-webkit-box-shadow: -1px 10px 5px #481D54;
 	-ms-box-shadow: -1px 10px 5px #481D54;
 	-o-box-shadow: -1px 10px 5px #481D54;
-	box-shadow: -1px 10px 5px #481D54;}
+	box-shadow: -1px 10px 5px #481D54; }
 
 #container nav ul {
-	padding-top: 0.3em;}
+	padding-top: 0.3em; }
 
 nav ul li {
-	margin-left:0.3em;}
+	margin-left:0.3em; }
 	
 
 /* 10.CONTENT */
+
 aside {
 	padding:1em;
-	padding-bottom:2em;}
+	padding-bottom:2em; }
 	
 footer { 
-	height: 2em;}
+	height: 2em; }
 
 /* 11.MAIN */
+
+#container {
+	overflow: auto;
+}
 
 #bodycontainer {
 	margin-left: auto;
 	margin-right: auto;
 	height: 100%;
-	width:320px;}
+	width:320px; }
 
 /* 12.COMPLIMENTARY */
 /* 13.CONTENTINFO */
