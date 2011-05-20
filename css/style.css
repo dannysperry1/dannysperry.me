@@ -333,14 +333,12 @@ nav ul li{
 	display: inline;}
 
 /* 10.CONTENT */
-#box1 img {
-	width: 30%;
-	height:10%;
-}
-
-#container aside section #box1 {
-	width:80%;
-	height:60%;
+#box1 img {			
+	margin: 0 auto;			
+}							
+							
+aside section#box1 {
+	overflow:auto;
 	background: black;
 	border-radius:20px;
 	border: 1px solid black;}
@@ -353,7 +351,7 @@ nav ul li{
 	position:absolute;
 	cursor: pointer; }
 	
-section #box1 .pictures {}
+section#box1.pictures {}
 
 
 /* 11.MAIN */

@@ -78,6 +78,18 @@ nav li img .gm {
 
 /* 10.CONTENT */
 
+#box1 {
+	position: relative;
+	margin: -1em auto 1em; }
+
+#box1 img {           	
+	width: 85%;				
+	height: 85%; }
+	
+aside section#box1 { 		
+	width:75%;
+	height:16em; }
+
 aside {
 	padding:1em;
 	padding-bottom:2.2em; }

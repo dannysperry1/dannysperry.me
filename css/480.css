@@ -74,6 +74,18 @@ nav li img {
 
 /* 10.CONTENT */
 
+#box1 {
+	position: relative;
+	margin: -1em auto 1em; }
+
+#box1 img {           	
+	width: 100%;				
+	height:100%; }
+	
+aside section#box1 { 		
+	width:85%;
+	height:13em; }
+
 aside {
 	padding:1em;
 	padding-bottom:2.2em; }

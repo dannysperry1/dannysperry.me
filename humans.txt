@@ -3,13 +3,13 @@
 
 
 /* TEAM */
-  <your title>: <your name>
-  Site: 
-  Twitter: 
-  Location: 
+  Web Developer : Daniel Sperry
+  Site: dannysperry.me
+  Twitter: twitter.com/logsnboulders
+  Location: Tacoma, WA
 
 /* THANKS */
-  Names (& URL): 
+  Names (& URL): Neil Heinrich (www.neilheinrich.com)
 
 /* SITE */
   Standards: HTML5, CSS3

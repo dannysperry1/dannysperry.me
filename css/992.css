@@ -91,12 +91,22 @@ nav li img .gm {
 
 /* 10.CONTENT */
 
+#box1 {
+	position: relative;
+	margin: 2.5em auto 0; }
+
+#box1 img {             	
+	width: 90%;				
+	height: 90%; }
+	
+aside section#box1 { 		
+	width:90%;
+	height:20em; }
+
 aside {
 	display: inline;
 	width: 73%;
-	float: left;
-	padding:1em;
-	padding-bottom:10%; }
+	float: left; }
 	
 footer {
 	height:2.2em;
