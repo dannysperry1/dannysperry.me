@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	var currentPosition = 0;
-	var slideWidth = 754;
+	var slideWidth = 470;
 	var slides = $('.pictures');
 	var numberOfSlides = slides.length;
 	
@@ -21,7 +21,7 @@ $(document).ready(function() {
 	$('#boxInner').css('width', slideWidth * numberOfSlides);
 
 	//Insert controls in the DOM
-	$('#content')
+	$('#box1')
     .prepend('<span class="control" id="leftControl">Clicking moves left</span>')
     .append('<span class="control" id="rightControl">Clicking moves right</span>');
 	
@@ -36,7 +36,7 @@ $(document).ready(function() {
 			
 		//Hide / Show controls
 		manageControls(currentPosition);
-		//Move #boxInner1,2,3,4 using margin-left
+		//Move #boxInner using margin-left
 		$('#boxInner').animate({
 			'marginLeft' : slideWidth*(-currentPosition)
 		});

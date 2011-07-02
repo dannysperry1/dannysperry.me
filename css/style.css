@@ -86,26 +86,13 @@ dfn[title] {
 border-bottom : 1px dotted; 
 cursor : help; }
 
-table { 
-border-collapse : collapse; 
-border-spacing : 0; }
-
-hr { 
-display : block; 
-height : 1px; 
-border : 0; 
-border-top : 1px solid rgb(204,204,204);
-margin : 1em 0; 
-padding : 0; }
-
 /* 1.ROOT */
 
 html,
 body {
-	height: 100%; }
+	height: 100%;  }
 
 body { 
-min-width: 320px;
 margin : 0 auto;
 font : 100%/1.4 Cambria, Georgia, Times, "Times New Roman";
 color : rgb(40,40,40); 
@@ -113,14 +100,14 @@ background-color : #333;
 text-align: center; }
 
 #bodycontainer {
-	position: relative;
 	width:100%;
-	min-width: 320px;
-	min-height:100%; }
+	min-width: 480px;
+	min-height: 100%;
+	height: 100%; }
 
 #container {
-	overflow:hidden;
-	background: #fff;
+	overflow: hidden;
+	background: #481D54;
 	width: 100%; }
 
 /* 2.HEADINGS */
@@ -133,8 +120,7 @@ header {
   	background-image: -webkit-gradient(linear, left top, left bottom, from(#300E39), to(#481D54)); /* Saf4+, Chrome */
   	background-image: -webkit-linear-gradient(top, #300E39, #481D54); /* Chrome 10+, Saf5.1+ */
   	background-image: linear-gradient(top, #300E39, #481D54);
-              filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#300E39', EndColorStr='#481D54'); /* IE6–IE9 */
-	border-bottom: solid 1px #300E3A; }
+              filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#300E39', EndColorStr='#481D54'); /* IE6–IE9 */}
 	
 footer {	
 	position: relative;
@@ -176,34 +162,43 @@ aside h2,
 aside h3 {
 	color: #161616; }
 
-header h3 em:first-child {
-	-moz-transform: rotate(-5deg);
-	-webkit-transform: rotate(-5deg);
-	-ms-transform: rotate(-5deg);
-	-o-transform: rotate(-5deg);
-	transform: rotate(-5deg);}
-
 header h3 em {
-	
 	text-shadow:0 -1px 2px rgba(128,51,150,1), 
 				0 5px 5px rgba(48, 14, 58, .8), 
 				0 10px 15px rgba(48, 14, 58, .5);
 	filter: shadow(color=#300e3a, direction="135");
-	-moz-transform: rotate(5deg);
 	-webkit-transform: rotate(5deg);
+	-moz-transform: rotate(5deg);
 	-ms-transform: rotate(5deg);
 	-o-transform: rotate(5deg);
-	transform: rotate(5deg);}
+	transform: rotate(5deg); }
+
+header h3 em:nth-of-type(1) {
+	-webkit-transform: rotate(-5deg);
+	-moz-transform: rotate(-5deg);
+	-ms-transform: rotate(-5deg);
+	-o-transform: rotate(-5deg);
+	transform: rotate(-5deg); }
 
 header h3 em:hover {
-	text-shadow:0 5px 5px rgba(48, 14, 58, .8),
-				5px 4px 1px rgba(48, 14, 58, .8);
-	filter: shadow(color=#300e3a, direction="135");
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	transform: rotate(0deg);
+}
+
+header h3 em:hover {
 	-moz-transform: scale(1.3);
 	-webkit-transform: scale(1.3);
 	-ms-transform: scale(1.3);
 	-o-transform: scale(1.3);
-	transform: scale(1.3);}
+	transform: scale(1.3);
+}
+
+header h3 em a:hover {
+	text-decoration: none;
+	color: #BA1FAF; }
 
 p, 
 ol, 
@@ -275,18 +270,21 @@ font-size : 1em; /* 16 / 16 = 1 */ }
 a, 
 a:visited {
 outline : none;
-color : rgb(23,119,175);
+color: #551966;
 text-decoration : none; }
  
 a:hover { 
 outline : none;
-color : rgb(40,40,40); 
-text-decoration : underline; }
+color: #551966; 
+text-decoration : none; }
  
 a:active, 
 a:focus { 
 outline : none;
 color : rgb(0,0,0); }
+
+header h3 a, header h3 a:visited {
+		color: #803396; }
 
 /* 5.FIGURES & IMAGES */
 
@@ -332,12 +330,9 @@ nav ul li{
 	list-style-type: none;
 	display: inline;}
 
-/* 10.CONTENT */
-#box1 img {			
-	margin: 0 auto;			
-}							
+/* 10.CONTENT */				
 							
-aside section#box1 {
+#box1 {
 	overflow:auto;
 	background: black;
 	border-radius:20px;
@@ -350,8 +345,6 @@ aside section#box1 {
 	text-indent:-100000px;
 	position:absolute;
 	cursor: pointer; }
-	
-section#box1.pictures {}
 
 
 /* 11.MAIN */
