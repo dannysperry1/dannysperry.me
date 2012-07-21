@@ -34,11 +34,11 @@ _____________________________________________________
 
 @font-face {
 font-family : "Harabara"; 
-src : url("../Harabara-webfont.eot");
+src : url("https://github.com/dannysperry/dannysperry.me/blob/gh-pages/harabara-webfont.eot");
 src : local("☺"),
-url("../Harabara-webfont.svg#Harabara-webfont") format("svg"),
-url("../Harabara-webfont.ttf") format("truetype"),
-url("../Harabara-webfont.woff") format("woff"); }
+url("https://github.com/dannysperry/dannysperry.me/blob/gh-pages/Harabara-webfont.svg#Harabara-webfont") format("svg"),
+url("https://github.com/dannysperry/dannysperry.me/blob/gh-pages/Harabara-webfont.ttf") format("truetype"),
+url("https://github.com/dannysperry/dannysperry.me/blob/gh-pages/Harabara-webfont.woff") format("woff"); }
 
 /*
 
