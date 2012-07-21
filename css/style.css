@@ -30,6 +30,18 @@ _____________________________________________________
 16.TEMPLATE SPECIFICS
 17.MODERNIZR
 
+*/
+
+@font-face {
+font-family : "Harabara"; 
+src : url("../Harabara-webfont.eot");
+src : local("☺"),
+url("../Harabara-webfont.svg#Harabara-webfont") format("svg"),
+url("../Harabara-webfont.ttf") format("truetype"),
+url("../Harabara-webfont.woff") format("woff"); }
+
+/*
+
 COLOURS 
 
 */
@@ -136,14 +148,6 @@ footer {
 	clear: both; }
 
 /* 3.TYPOGRAPHY */
-
-@font-face {
-font-family : "Harabara"; 
-src : url("../Harabara-webfont.eot");
-src : local("☺"),
-url("../Harabara-webfont.svg#Harabara-webfont") format("svg"),
-url("../Harabara-webfont.ttf") format("truetype"),
-url("../Harabara-webfont.woff") format("woff"); }
 
 h1,
 h2,
