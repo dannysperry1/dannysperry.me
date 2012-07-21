@@ -1,0 +1,137 @@
+/* 480
+
+_____________________________________________________
+
+320 and Up boilerplate extension
+
+Author: Andy Clarke
+Version: 0.9b
+URL: http://stuffandnonsense.co.uk/projects/320andup/
+License: http://creativecommons.org/licenses/MIT/
+_____________________________________________________
+
+1.ROOT
+2.HEADINGS
+3.TYPOGRAPHY
+4.LINKS
+5.FIGURES & IMAGES
+6.TABLES
+7.FORMS (See css/mylibs/forms.css)
+8.BANNER — header[role="banner"]
+9.NAVIGATION — nav[role="navigation"]
+10.CONTENT
+11.MAIN — div[role="main"]
+12.COMPLIMENTARY — div[role="complementary"]
+13.CONTENTINFO — footer[role="contentinfo"]
+14.GLOBAL OBJECTS
+15.VENDOR-SPECIFIC 
+16.TEMPLATE SPECIFICS
+17.MODERNIZR
+
+*/
+
+/* 1.ROOT */
+/* 2.HEADINGS */
+header {
+	text-align: center;
+	height:9.5em; }
+
+/* 3.TYPOGRAPHY */
+h1 {
+	margin: -0.2em 0;
+	font-size: 4em; }
+	
+header h2, header h3 {
+	width: 90%;
+	margin:  auto;
+	line-height: 1em; }
+
+header h2 {
+	font-size:2.2em; }	
+	
+header h3 {	
+	font-size:2.4em; }
+	
+aside h1 {
+	font-size: 2.5em; }
+
+aside h2 { 
+	font-size: 2em; }
+
+aside h3 {
+	font-size: 1.25em; }
+	
+	
+/* 4.LINKS */
+/* 5.FIGURES & IMAGES */
+/* 6.TABLES */
+/* 7.FORMS (See css/mylibs/forms.css) */
+/* 8.BANNER */
+/* 9.NAVIGATION */
+nav {
+	width: 95%;
+	height: 5.6em;
+	background: #fff;
+	margin: 0.5em auto 0;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-ms-border-radius: 15px;
+	-o-border-radius: 15px;
+	border-radius: 15px;}
+
+nav li img {
+	margin: 0.5em;
+	width: 13%; }
+
+/* 10.CONTENT */
+
+#box1 img {
+	width: 360px;
+	height: 300px;
+	margin-left:-150px; 
+	}
+	
+#box1 { 
+	height: 300px;
+	width: 400px;
+	margin: 0 auto; }
+
+aside {
+	padding:1em;
+	padding-bottom:2.2em;
+	background: #fff;
+	margin: 1em auto;
+	width: 87%;
+	height: 100%;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-ms-border-radius: 15px;
+	-o-border-radius: 15px;
+	border-radius: 15px; }
+	
+#leftControl {
+	background: url('../img/control_left.png') no-repeat;
+	top: 325px;
+	left: 0;}
+
+#rightControl {
+	background: url('../img/control_right.png') no-repeat; 
+	top: 325px;
+	left: 440px;}	
+
+footer {
+	height:2.2em; }
+
+/* 11.MAIN */
+
+#bodycontainer {
+	width:480px;
+	}
+
+
+/* 12.COMPLIMENTARY */
+/* 13.CONTENTINFO */
+/* 14.GLOBAL OBJECTS */
+/* 15.VENDOR-SPECIFIC */
+/* 16.TEMPLATE SPECIFICS */
+/* 17.MODERNIZR */

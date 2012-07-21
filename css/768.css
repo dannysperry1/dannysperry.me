@@ -1,0 +1,134 @@
+/* 480
+
+_____________________________________________________
+
+320 and Up boilerplate extension
+
+Author: Andy Clarke
+Version: 0.9b
+URL: http://stuffandnonsense.co.uk/projects/320andup/
+License: http://creativecommons.org/licenses/MIT/
+_____________________________________________________
+
+1.ROOT
+2.HEADINGS
+3.TYPOGRAPHY
+4.LINKS
+5.FIGURES & IMAGES
+6.TABLES
+7.FORMS (See css/mylibs/forms.css)
+8.BANNER — header[role="banner"]
+9.NAVIGATION — nav[role="navigation"]
+10.CONTENT
+11.MAIN — div[role="main"]
+12.COMPLIMENTARY — div[role="complementary"]
+13.CONTENTINFO — footer[role="contentinfo"]
+14.GLOBAL OBJECTS
+15.VENDOR-SPECIFIC 
+16.TEMPLATE SPECIFICS
+17.MODERNIZR
+
+*/
+
+/* 1.ROOT */
+/* 2.HEADINGS */
+
+header {
+	text-align: center;
+	height:11em; }
+
+/* 3.TYPOGRAPHY */
+
+h1 {
+	margin: -0.2em 0;
+	font-size: 6.5em; }
+	
+header h2, header h3 {
+	display: inline;
+	font-size:2.8em; }	
+	
+aside h1 {
+	font-size: 5em; }
+		
+/* 4.LINKS */
+/* 5.FIGURES & IMAGES */
+/* 6.TABLES */
+/* 7.FORMS (See css/mylibs/forms.css) */
+/* 8.BANNER */
+/* 9.NAVIGATION */
+
+nav {
+	width: 45em;
+	height: 6.5em;
+	
+	background: #fff;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-ms-border-radius: 15px;
+	-o-border-radius: 15px;
+	border-radius: 15px;}
+
+nav li {
+	margin: 0 1%; }
+
+nav li img {
+	margin: 0 1em;
+	width: 12%; }
+
+nav li img .gm {
+	width: 14%; }
+
+/* 10.CONTENT */
+
+.pictures { 
+	margin: 15px 0; }
+
+#box1 img {
+	width: 540px;
+	height: 222px; 
+	margin-left: 0;}
+	
+#box1 { 
+	width:552px;
+	height: 252px;
+	margin: 1em auto; }
+
+aside {
+	width: 43em;
+	height: 250px;
+	padding-bottom:2.2em;
+	background: #fff;
+	margin: 1em auto;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-ms-border-radius: 15px;
+	-o-border-radius: 15px;
+	border-radius: 15px; }
+	
+#leftControl {
+	background: url('../img/control_left.png') no-repeat;
+	top: 345px;
+	left: 69px;}
+
+#rightControl {
+	background: url('../img/control_right.png') no-repeat; 
+	top: 345px;
+	left: 660px;}
+	
+footer {
+	height:2em;
+	margin-top: -3px; }
+
+/* 11.MAIN */
+
+#bodycontainer {
+	width: 768px;
+	height: 470px;  }
+	
+
+/* 12.COMPLIMENTARY */
+/* 13.CONTENTINFO */
+/* 14.GLOBAL OBJECTS */
+/* 15.VENDOR-SPECIFIC */
+/* 16.TEMPLATE SPECIFICS */
+/* 17.MODERNIZR */

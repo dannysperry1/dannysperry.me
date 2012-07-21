@@ -1,0 +1,150 @@
+/* 992
+
+_____________________________________________________
+
+320 and Up boilerplate extension
+
+Author: Andy Clarke
+Version: 0.9b
+URL: http://stuffandnonsense.co.uk/projects/320andup/
+License: http://creativecommons.org/licenses/MIT/
+_____________________________________________________
+
+1.ROOT
+2.HEADINGS
+3.TYPOGRAPHY
+4.LINKS
+5.FIGURES & IMAGES
+6.TABLES
+7.FORMS (See css/mylibs/forms.css)
+8.BANNER — header[role="banner"]
+9.NAVIGATION — nav[role="navigation"]
+10.CONTENT
+11.MAIN — div[role="main"]
+12.COMPLIMENTARY — div[role="complementary"]
+13.CONTENTINFO — footer[role="contentinfo"]
+14.GLOBAL OBJECTS
+15.VENDOR-SPECIFIC 
+16.TEMPLATE SPECIFICS
+17.MODERNIZR
+
+*/
+
+/* 1.ROOT */
+/* 2.HEADINGS */
+
+header {
+	text-align: left;
+	height:9.5em;}
+
+/* 3.TYPOGRAPHY */
+
+header hgroup {
+	margin-left: 1em;}
+
+h1 {
+	font-size: 4em;}
+	
+header h2, 
+header h3 {
+	line-height: 1em;}
+	
+	
+header h2, 
+header h3 {	
+	font-size:2.8em;}
+	
+aside hgroup {
+	padding: 5em 0 0 5em;
+	text-align: left;}
+	
+aside h2 {
+	font-size: 3em;}
+	
+aside h3 {
+	font-size: 1.8em;}
+	
+	
+/* 4.LINKS */
+/* 5.FIGURES & IMAGES */
+/* 6.TABLES */
+/* 7.FORMS (See css/mylibs/forms.css) */
+/* 8.BANNER */
+/* 9.NAVIGATION */
+
+nav {
+	float: right;
+	height: 420px;
+	width: 22%;
+	margin: 1em;
+	background: #fff;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-ms-border-radius: 15px;
+	-o-border-radius: 15px;
+	border-radius: 15px;}
+
+nav li img {
+	margin: 1em auto -1em;
+	width: 32%; }
+	
+nav ul li {
+	display: block;}
+
+nav li img .gm {
+	width: 14%; }
+
+/* 10.CONTENT */
+
+.pictures { 
+	margin: 15px 0; }
+
+#box1 img {
+	width: 540px;
+	height: 320px;
+}
+	
+#box1 { 
+	width:550px;
+	height: 350px;
+	margin: 2em auto; }
+
+aside {
+	background: #fff;
+	margin: 1em;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-ms-border-radius: 15px;
+	-o-border-radius: 15px;
+	border-radius: 15px;
+	width: 650px;
+	height: 370px;
+	float: left; }
+
+#leftControl {
+	background: url('../img/control_left.png') no-repeat;
+	top: 290px;
+	left: 42px;}
+	
+#rightControl {
+	background: url('../img/control_right.png') no-repeat; 
+	top: 290px;
+	left: 632px;}
+	
+footer {
+	height:2.2em;
+	clear:both; }
+	
+/* 11.MAIN */
+
+#bodycontainer {
+	width: 992px; 
+	height: 490px;}
+	
+
+/* 12.COMPLIMENTARY */
+/* 13.CONTENTINFO */
+/* 14.GLOBAL OBJECTS */
+/* 15.VENDOR-SPECIFIC */
+/* 16.TEMPLATE SPECIFICS */
+/* 17.MODERNIZR */

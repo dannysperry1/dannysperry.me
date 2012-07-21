@@ -1,0 +1,125 @@
+/* 320
+
+_____________________________________________________
+
+320 and Up boilerplate extension
+
+Author: Andy Clarke
+Version: 0.9b
+URL: http://stuffandnonsense.co.uk/projects/320andup/
+License: http://creativecommons.org/licenses/MIT/
+_____________________________________________________
+
+1.ROOT
+2.HEADINGS
+3.TYPOGRAPHY
+4.LINKS
+5.FIGURES & IMAGES
+6.TABLES
+7.FORMS (See css/mylibs/forms.css)
+8.BANNER — header[role="banner"]
+9.NAVIGATION — nav[role="navigation"]
+10.CONTENT
+11.MAIN — div[role="main"]
+12.COMPLIMENTARY — div[role="complementary"]
+13.CONTENTINFO — footer[role="contentinfo"]
+14.GLOBAL OBJECTS
+15.VENDOR-SPECIFIC 
+16.TEMPLATE SPECIFICS
+17.MODERNIZR
+
+*/
+
+/* 1.ROOT */
+/* 2.HEADINGS */
+
+header {
+	height:10em; }
+	
+/* 3.TYPOGRAPHY */
+
+h1 {
+	font-size: 3em; }
+	
+header h2, h3 {
+	width:100%;
+	margin: auto;
+	font-size:1.8em; }
+
+aside h1 {
+	font-size: 2.5em; }
+
+aside h2 { 
+	font-size: 2em; }
+	
+aside h3 {
+	font-size: 1.25em; }
+	
+/* 4.LINKS */
+		
+/* 5.FIGURES & IMAGES */
+
+nav li img {
+	width: 16%;}
+
+/* 6.TABLES */
+/* 7.FORMS (See css/mylibs/forms.css) */
+/* 8.BANNER */
+/* 9.NAVIGATION */
+
+nav {
+	width: 95%;
+	height: 4.5em;
+	background: #fff;
+	margin: 0.5em auto 0;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-ms-border-radius: 15px;
+	-o-border-radius: 15px;
+	border-radius: 15px;}
+
+#container nav ul {
+	padding-top: 0.3em; }
+
+nav ul li {
+	display: inline;
+	margin-left:0.3em; }
+	
+
+/* 10.CONTENT */
+
+
+
+aside {
+	padding:1em;
+	width: 85%;
+	background: #fff;
+	margin: 0.5em auto 0;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-ms-border-radius: 15px;
+	-o-border-radius: 15px;
+	border-radius: 15px; }
+	
+footer { 
+	height: 2em;
+	margin-top: 0.5em; }
+
+/* 11.MAIN */
+
+#container {
+	overflow: auto;
+}
+
+#bodycontainer {
+	margin: 0 auto;
+	height: 100%;
+	min-width:30%;
+	width:320px; }
+
+/* 12.COMPLIMENTARY */
+/* 13.CONTENTINFO */
+/* 14.GLOBAL OBJECTS */
+/* 15.VENDOR-SPECIFIC */
+/* 16.TEMPLATE SPECIFICS */
+/* 17.MODERNIZR */
