@@ -78,10 +78,13 @@ nav {
 	-ms-border-radius: 15px;
 	-o-border-radius: 15px;
 	border-radius: 15px;}
-
+	
 nav li img {
-	margin: 0.5em;
-	width: 13%; }
+	margin: 0 1em;
+	width: 7.5%; }
+
+nav li img .gm {
+	width: 8.75%; }	
 
 /* 10.CONTENT */
 

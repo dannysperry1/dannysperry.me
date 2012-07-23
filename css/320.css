@@ -85,6 +85,12 @@ nav ul li {
 	display: inline;
 	margin-left:0.3em; }
 	
+nav li img {
+	margin: 0 1em;
+	display: none; }
+
+nav li img .gm {
+	width: 5.8%; }
 
 /* 10.CONTENT */
 
@@ -113,8 +119,7 @@ footer {
 
 #bodycontainer {
 	margin: 0 auto;
-	height: 100%;
-	min-width:30%;
+	height: 100%;;
 	width:320px; }
 
 /* 12.COMPLIMENTARY */
