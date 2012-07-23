@@ -56,19 +56,11 @@ aside h3 {
 	font-size: 1.25em; }
 	
 /* 4.LINKS */
-
-header h3 a:hover {
-	-moz-transform:scale(1.5);
-	text-decoration: none;
-	color: #BA1FAF; }
-
-header h3 a, header h3 a:visited {
-		color: #803396; }
 		
 /* 5.FIGURES & IMAGES */
 
 nav li img {
-	width: 9%;}
+	width: 16%;}
 
 /* 6.TABLES */
 /* 7.FORMS (See css/mylibs/forms.css) */
@@ -76,40 +68,90 @@ nav li img {
 /* 9.NAVIGATION */
 
 nav {
-	width: 100%;
+	width: 95%;
 	height: 4.5em;
-	margin: 0 auto;
-	-moz-box-shadow: -1px 10px 5px #481D54;
-	-webkit-box-shadow: -1px 10px 5px #481D54;
-	-ms-box-shadow: -1px 10px 5px #481D54;
-	-o-box-shadow: -1px 10px 5px #481D54;
-	box-shadow: -1px 10px 5px #481D54; }
+	background: #fff;
+	margin: 0.5em auto 0;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-ms-border-radius: 15px;
+	-o-border-radius: 15px;
+	border-radius: 15px;}
 
 #container nav ul {
 	padding-top: 0.3em; }
 
 nav ul li {
+	display: inline;
 	margin-left:0.3em; }
 	
+nav li img {
+	margin: 0 1em;
+	width: 40px; }
 
 /* 10.CONTENT */
 
+
+
 aside {
 	padding:1em;
-	padding-bottom:2em; }
+	width: 85%;
+	background: #fff;
+	margin: 0.5em auto 0;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-ms-border-radius: 15px;
+	-o-border-radius: 15px;
+	border-radius: 15px; }
+
+#box1 img {
+	width: 360px;
+	height: 300px;
+	margin-left:-150px; 
+	}
+
+#box1 { 
+	height: 300px;
+	width: 400px;
+	margin: 0 auto; }
+
+aside {
+	padding:1em;
+	padding-bottom:2.2em;
+	background: #fff;
+	margin: 1em auto;
+	width: 87%;
+	height: 100%;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-ms-border-radius: 15px;
+	-o-border-radius: 15px;
+	border-radius: 15px; }
+
+#leftControl {
+	background: url('../img/control_left.png') no-repeat;
+	top: 325px;
+	left: 0;}
+
+#rightControl {
+		background: url('../img/control_right.png') no-repeat; 
+		top: 325px;
+		left: 440px;}
 	
 footer { 
 	height: 2em;
-	margin-top: -2em; }
+	margin-top: 0.5em; }
 
 /* 11.MAIN */
 
+#container {
+	overflow: auto;
+}
+
 #bodycontainer {
-	margin-left: auto;
-	margin-right: auto;
-	height: 100%;
-	width:640px;
-	padding-bottom: 2em; }
+	margin: 0 auto;
+	height: 100%;;
+	width:640px; }
 
 /* 12.COMPLIMENTARY */
 /* 13.CONTENTINFO */
